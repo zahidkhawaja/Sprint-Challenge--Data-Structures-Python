@@ -42,6 +42,8 @@ class LinkedList:
 
         node = self.head
 
+        prev = None
+
         # Runs until the end of the LL 
         # When next_node becomes 'none', loop exists
         while node:
